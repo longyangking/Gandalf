@@ -7,3 +7,8 @@
 + Reinforcement Neural Network (RNN)
 + Convolution Neural Network (CNN)
 + Boltzmann Machine
+
+## Demos
++ Simple Classification
+
+![](./examples/simple_classification.jpeg)

@@ -8,11 +8,11 @@ import gandalf.neuralnetwork as neuralnetwork
 def sampledata(n):
     X = np.zeros((2*n,2))
     y = np.zeros(2*n)
-    X[:n,0] = np.random.normal(loc=1.0, scale=1.0, size=[n])
-    X[:n,1] = np.random.normal(loc=1.0, scale=1.0, size=[n])
+    X[:n,0] = np.random.normal(loc=1.0, scale=0.5, size=[n])
+    X[:n,1] = np.random.normal(loc=1.0, scale=0.5, size=[n])
 
-    X[n:,0] = np.random.normal(loc=-1.0, scale=1.0, size=[n])
-    X[n:,1] = np.random.normal(loc=-1.0, scale=1.0, size=[n])
+    X[n:,0] = np.random.normal(loc=-1.0, scale=0.5, size=[n])
+    X[n:,1] = np.random.normal(loc=-1.0, scale=0.5, size=[n])
     y[n:] = np.ones(n)
     return X,y
 
