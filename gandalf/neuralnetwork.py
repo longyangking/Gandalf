@@ -18,8 +18,8 @@ class NeuralNetwork:
             self.weights = list()
             for i in range(1,len(layers) - 1): # First and last layer for input and output, respectively
                 self.weights.append(\
-                    (2*np.random.random((layers[i-1] + 1, layers[i] + 1))-1)*0.25)
-                self.weights.append(\
+                    (2*np.random.random((layers[i-1] + 1, layers[i] + 1))-1)*0.25)    
+            self.weights.append(\
                     (2*np.random.random((layers[i] + 1, layers[i+1]))-1)*0.25)
         else:
             self.weights = initialweights

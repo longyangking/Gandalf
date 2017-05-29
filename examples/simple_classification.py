@@ -9,18 +9,18 @@ def sampledata(n):
     X = np.zeros((2*n,2))
     y = np.zeros(2*n)
     X[:n,0] = np.random.normal(loc=1.0, scale=0.5, size=[n])
-    X[:n,1] = np.random.normal(loc=1.0, scale=0.5, size=[n])
+    X[:n,1] = np.random.normal(loc=-1.0, scale=0.5, size=[n])
 
     X[n:,0] = np.random.normal(loc=-1.0, scale=0.5, size=[n])
-    X[n:,1] = np.random.normal(loc=-1.0, scale=0.5, size=[n])
+    X[n:,1] = np.random.normal(loc=1.0, scale=0.5, size=[n])
     y[n:] = np.ones(n)
     return X,y
 
 if __name__ == '__main__':
-    N = 100
+    N = 200
     X,y = sampledata(N)
     
-    nn = neuralnetwork.NeuralNetwork([2,5,1],'tanh')    # Need to debug, i.e, when to set [2,5,5,1]
+    nn = neuralnetwork.NeuralNetwork([2,4,6,1],'tanh')    # Need to debug, i.e, when to set [2,5,5,1]
     nn.fit(X,y,0.1,10000)
 
     N0 = 100
