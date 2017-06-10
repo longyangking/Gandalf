@@ -1,12 +1,12 @@
 # Gandalf
-> Deep learning Toolbox for python (My own experimental project)
+> Parameter optimizer for deep learning (My own experimental project)
 
 ## Features
-+ Mainly based on Tensorflow, Theano, Keras
-+ Deep Q-Network (DQN)
-+ Reinforcement Neural Network (RNN)
-+ Convolution Neural Network (CNN)
-+ Boltzmann Machine
++ Mainly based on Tensorflow, Theano, Keras, CNTK
++ To optimize all parameters in deep learning network
+
+## Status
+Working on it
 
 ## Demos
 + Simple Classification
