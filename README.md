@@ -1,9 +1,9 @@
 # Gandalf
-> Parameter optimizer for deep learning (My own experimental project)
+> Artificial intelligence Craft (My own experimental project)
 
 ## Features
-+ Mainly based on Tensorflow, Theano, Keras, CNTK
-+ To optimize all parameters in deep learning network
++ Machine learning code from scratch
++ Focus on the easy implement and verification of new algorithms of ML
 
 ## Status
 Working on it
