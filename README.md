@@ -1,14 +1,15 @@
 # Gandalf
-> Parameter optimizer for deep learning (My own experimental project)
+> Artificial Intelligence Craft
 
 ## Features
-+ Mainly based on Tensorflow, Theano, Keras, CNTK
-+ To optimize all parameters in deep learning network
++ Home-made machine learning/artificial intelligence algortihm
++ Some features based on Tensorflow, Keras, Scikit-learn, or something similar
++ Auto optimization of hyper-parameters and mode structure
 
 ## Status
 Working on it
 
 ## Demos
-+ Simple Classification
++ Simple Classification based on the Neural network
 
 ![](./examples/simple_classification.jpeg)
