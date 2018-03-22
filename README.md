@@ -1,13 +1,12 @@
 # Gandalf
-> Artificial Intelligence Craft
+> Inverse Engineering via AI
 
 ## Features
 + Home-made/Integrated machine learning/artificial intelligence algortihm based on Tensorflow, Keras, Scikit-learn
 + Several In-built Famous Efficient Networks 
-+ Auto optimization of hyper-parameters and mode structure
 
 ## Status
-Working on it
+Working on it, this project is being converted
 
 ## Demos
 + Simple Classification based on the Neural network
