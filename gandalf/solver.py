@@ -21,12 +21,16 @@ class Solver:
         Xs = list()
         Ys = list()
         if verbose:
-            print("Generating training data...")
+            print("Generating training data...",end="")
         for i in range(int(epochs)):
             x = xmin + (xmax - xmin)*np.random.random(n_variables)
             Xs.append(self.func(x))
             Ys.append(x)
+            if (i+1)%int(epochs/10)==0 and verbose:
+                print(" {value:0.0f}% ".format(value=(i+1)/int(epochs)*100),end="")
 
+        if verbose:
+            print("Complete!")
         #Xs = np.array(Xs)
         #Ys = np.array(Ys)
         if verbose:
