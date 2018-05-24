@@ -45,6 +45,12 @@ class Dataset:
         data = 1/self.alpha*np.log(1/xs - 1) + self.beta
         return data
 
+class DataGenerator:
+    def __init__(self, model):
+        self.model = model
+
+    def 
+    
 
 if __name__=="__main__":
     def func(x):
